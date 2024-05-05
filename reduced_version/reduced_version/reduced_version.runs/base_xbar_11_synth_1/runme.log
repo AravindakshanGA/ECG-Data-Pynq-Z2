@@ -1,0 +1,114 @@
+
+*** Running vivado
+    with args -log base_xbar_11.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_xbar_11.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source base_xbar_11.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1187.227 ; gain = 42.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1351.113 ; gain = 206.531
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1351.113 ; gain = 206.531
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1351.113 ; gain = 206.531
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1351.113 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1387.238 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1390.348 ; gain = 3.109
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/base_xbar_11_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     8|
+|3     |LUT3 |     6|
+|4     |LUT4 |    70|
+|5     |LUT5 |     4|
+|6     |LUT6 |    22|
+|7     |FDRE |   126|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1390.348 ; gain = 245.766
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1395.227 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1402.227 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:26 . Memory (MB): peak = 1402.227 ; gain = 257.645
+
+*** Running vivado
+    with args -log base_xbar_11.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_xbar_11.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source base_xbar_11.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1186.527 ; gain = 41.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1351.988 ; gain = 207.293
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1351.988 ; gain = 207.293
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1351.988 ; gain = 207.293
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1351.988 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1363.031 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1374.238 ; gain = 11.207
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/base_xbar_11_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1374.238 ; gain = 229.543
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     9|
+|3     |LUT3 |    17|
+|4     |LUT4 |    50|
+|5     |LUT5 |    36|
+|6     |LUT6 |    64|
+|7     |FDRE |   129|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.219 ; gain = 237.523
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1391.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1395.371 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1395.371 ; gain = 250.676

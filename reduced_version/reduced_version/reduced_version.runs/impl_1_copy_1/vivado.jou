@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  6 00:54:35 2024
+# Process ID: 17168
+# Current directory: D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/impl_1_copy_1
+# Command line: vivado.exe -log base_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source base_wrapper.tcl -notrace
+# Log file: D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/impl_1_copy_1/base_wrapper.vdi
+# Journal file: D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/impl_1_copy_1\vivado.jou
+#-----------------------------------------------------------
+source base_wrapper.tcl -notrace

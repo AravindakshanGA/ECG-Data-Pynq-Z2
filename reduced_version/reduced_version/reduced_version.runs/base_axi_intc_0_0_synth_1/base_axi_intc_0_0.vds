@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  5 17:24:02 2024
+# Process ID: 14992
+# Current directory: D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/base_axi_intc_0_0_synth_1
+# Command line: vivado.exe -log base_axi_intc_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_axi_intc_0_0.tcl
+# Log file: D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/base_axi_intc_0_0_synth_1/base_axi_intc_0_0.vds
+# Journal file: D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/base_axi_intc_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_axi_intc_0_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1179.176 ; gain = 34.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1243.465 ; gain = 98.863
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1243.465 ; gain = 98.863
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1243.465 ; gain = 98.863
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1243.465 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1348.320 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1360.043 ; gain = 11.723
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  D:/ESD/ESD_CP/PYNQ-image_v2.7/PYNQ-image_v2.7/boards/Pynq-Z2/base/reduced_version/reduced_version.runs/base_axi_intc_0_0_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 1360.043 ; gain = 215.441
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    11|
+|3     |LUT3 |    29|
+|4     |LUT4 |    12|
+|5     |LUT5 |    11|
+|6     |LUT6 |    24|
+|7     |FDRE |    62|
+|8     |FDSE |     2|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1363.410 ; gain = 218.809
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1375.438 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1380.395 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 1380.395 ; gain = 235.793
